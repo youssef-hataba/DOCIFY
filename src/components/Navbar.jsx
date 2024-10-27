@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
       <Link to="/">
-        <img src={assets.logo} alt="Logo" className="w-36 cursor-pointer" />
+        <img src={assets.logo} alt="Logo" className="w-32 lg:w-36 cursor-pointer" />
       </Link>
 
       {/* Desktop Navigation */}
@@ -113,7 +113,7 @@ const Navbar = () => {
       {showMenu && (
         <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-30 pb-8">
           <div className="flex items-center justify-between px-4 py-4">
-            <img className="w-36" src={assets.logo} alt="Logo" />
+            <img className="w-32 lg:w-36" src={assets.logo} alt="Logo" />
             <img
               className="w-7 cursor-pointer"
               src={assets.cross_icon}
